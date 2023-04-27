@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Market - Web Design Shopee Using HTML,CSS and JavaScript</title>
+    <link rel="stylesheet" href="sale.css">
+    <link rel="shortcut icon" href="Mega-Market.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main class="main">
+        <header>
+            <nav class="sidebar">
+                <div class="grid-item">
+                    <span class="infor">
+                        <a href="#">Kênh Người Bán</a>
+                        <a href="#" class="big">Trở thành người bán</a>
+                        <a href="#">Tải ứng dụng</a>
+                        <a href="#" class="accent-1">Kết nối
+                            <i class='bx bxl-facebook-circle'></i>
+                            <i class='bx bxl-tiktok'></i>
+                        </a>
+                    </span>
+                    <span class="infor">
+                        <a href="#" id="item">
+                            Thông báo
+                            <i class='bx bxs-bell-ring'></i>
+                        </a>
+                        <a href="#" id="item">
+                            Hỗ trợ
+                            <i class='bx bxs-help-circle'></i>
+                        </a>
+                        <a href="#" id="item">
+                            Tiếng Việt
+                            <i class='bx bx-world'></i>
+                        </a>
+                        <a href="#" id="item">
+                            Đăng Nhập
+                            <i class='bx bxs-user-check'></i>
+                        </a>
+                        <a href="#" id="item">
+                            Đăng ký
+                            <i class='bx bxs-user-plus'></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="grid-item">
+                    <img src="Mega-Market.png" alt="">
+                    <label for="search">
+                        <input type="search" class="search" id="search" placeholder="Tiềm kím...">
+                        <i class='bx bx-search' id="search"></i>
+                    </label>
+                    <i class='bx bx-cart'></i>
+                </div>
+                <div class="grid-item">
+                    <section>
+                        <a href="#">Đồ dùng học tập</a>
+                        <a href="#">Dép</a>
+                        <a href="#">Sét đồ nữ</a>
+                        <a href="#">Váy</a>
+                        <a href="#">Diều sáo</a>
+                        <a href="#">Sét đồ nữ</a>
+                        <a href="#">Váy</a>
+                        <a href="#">Diều sáo</a>
+                        <a href="#">Sét đồ nữ</a>
+                        <a href="#">Váy</a>
+                        <a href="#">Diều sáo</a>
+                    </section>
+                </div>
+            </nav>
+        </header>
+        <div class="body">
+            <div class="br">
+                <div class="br-animation ">
+                    <img src="Danh-sách-20-shop-bán-quần-áo-nữ-đẹp-ở-TPHCM.jpg" class="mySlide animate-fading" alt="">
+                    <img src="br.webp" class="mySlide animate-fading" alt="">
+                    <img src="1200px.webp" class="mySlide animate-fading" alt="">
+                    <img src="cach-phoi-do-voi-ao-thun.jpg" class="mySlide animate-fading" alt="">
+                    <img src="hn-2.jpg" class="mySlide animate-fading" alt="">
+                    <img src="hn.jpg" class="mySlide animate-fading" alt="">
+                </div>
+                <div class="tech">
+                    <div class="item-2 display_container">
+                        <img src="balo-5.jpg" class="mySlide_2">
+                        <img src="balo-4.jpg" class="mySlide_2">
+                        <img src="balo-3.jpg" class="mySlide_2">
+                        <img src="balo-2.webp" class="mySlide_2">
+                        <img src="balo.jpg" class="mySlide_2">
+                        <!-- btn left & right -->
+
+                        <button class="image_button btn-left" onclick="plusDiv(-1)"><i
+                                class='bx bx-chevron-left'></i></button>
+                        <button class="image_button btn-right" onclick="plusDiv(1)"><i
+                                class='bx bx-chevron-right'></i></button>
+                        <!-- btn left & right -->
+                        <div class="badge">
+                            <span class="badge-img" onclick="currentDiv(1)"></span>
+                            <span class="badge-img" onclick="currentDiv(2)"></span>
+                            <span class="badge-img" onclick="currentDiv(3)"></span>
+                            <span class="badge-img" onclick="currentDiv(4)"></span>
+                            <span class="badge-img" onclick="currentDiv(5)"></span>
+                        </div>
+                    </div>
+                    <div class="item-3">
+                        <a href="https://boxicons.com/">
+                            <img src="balo-2.webp" alt="">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#">
+                    <img src="buy-1.png" alt="">
+                    <p>Khung giờ săn</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="buy-2.jpg" alt="">
+                    <p>Gì cũng rẻ- <br> mua là Freeship</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="buy-6.png" alt="">
+                    <p>Mã giảm giá</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="xe.png" alt="">
+                    <p>Thứ 4 Freeship - x4 Ưu đãi</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="rẻ.png" alt="">
+                    <p>Bắt Trend - <br> Giá Sốc</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="buy-7.png" alt="">
+                    <p>VouCher <br> Giảm - Đến 200k</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="hh.png" alt="">
+                    <p>Hàng Hiệu <br> Giá Tốt</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="earth.png" alt="">
+                    <p>hàng quốc tế</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="call.jpg" alt="">
+                    <p>nạp điện <br>thoại & game</p>
+                </a>
+            </li>
+        </ul>
+        <div class="animation-slide-2">
+            <div class="container">
+                <a href="#" class="wrap">
+                    <div class="slide_main">
+                        <img src="A_running.webp" class="slide_1 ra">
+                        <img src="A_running_2.jpg" class="slide_2">
+                    </div>
+                    <div class="nut">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </a>
+                <div id="content">
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="sale.js"></script>
+
+</html>
